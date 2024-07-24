@@ -25,6 +25,10 @@ body {
     color: rgb(230, 83, 60);
 }
 
+.p-color{
+    color: rgba(255, 255, 255, 0.5);
+}
+
 .nav-bar {
     display: flex;
     justify-content: space-between;
@@ -301,6 +305,78 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+.Extra-Mile {
+    position: static;
+    display: flex;
+    flex-direction: column;
+    width: 1060px;
+    height: 355px;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    margin-top: 800px;
+    margin-left: 115px;
+}
+
+.Extra-Mile-banner {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 443px;
+    height: 290px;
+    left: 54px;
+    top: 41px;
+    margin-top: 1300px;
+    margin-left: 180px;
+}
+
+.Extra-Mile-title {
+    position: static;
+    width: 443px;
+    height: 202px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Extra-Mile-sub-title {
+    position: static;
+    display: flex;
+    flex-direction: column;
+    width: 443px;
+    height: 95px;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.Extra-Mile-description {
+    position: static;
+    width: 443px;
+    height: 72px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.join-run {
+    margin-top: 70px;
+}
+
+.run-img {
+    position: absolute;
+    width: 366px;
+    height: 312px;
+    left: 662px;
+    top: 30px;
+    margin-top: 1330px;
+    margin-left: 180px;
+    border-radius: 20px;
+}
+
+
+
+
+
 
 
 @media screen and (max-width:576px) {
