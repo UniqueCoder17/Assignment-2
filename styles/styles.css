@@ -25,7 +25,7 @@ body {
     color: rgb(230, 83, 60);
 }
 
-.p-color{
+.p-color {
     color: rgba(255, 255, 255, 0.5);
 }
 
@@ -207,6 +207,7 @@ body {
     position: absolute;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     width: 1040px;
     height: 450px;
     left: 198px;
@@ -215,8 +216,7 @@ body {
 }
 
 .habit-contant {
-    position: static;
-    width: 671px;
+    width: 400px;
     height: 120px;
     justify-content: center;
     align-items: center;
@@ -225,7 +225,6 @@ body {
 }
 
 .habit-title {
-    position: static;
     width: 476px;
     height: 58px;
     font-size: 48px;
@@ -240,7 +239,6 @@ body {
 }
 
 .habit-img {
-    position: static;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -286,7 +284,6 @@ body {
 }
 
 .habit-img-description {
-    position: static;
     width: 231px;
     height: 36px;
     display: flex;
@@ -307,7 +304,6 @@ body {
 }
 
 .Extra-Mile {
-    position: static;
     display: flex;
     flex-direction: column;
     width: 1060px;
@@ -373,11 +369,91 @@ body {
     border-radius: 20px;
 }
 
+.trainings-banner {
+    position: static;
+    display: flex;
+    flex-direction: column;
+    width: 1070px;
+    height: 585px;
+
+    margin-top: 90px;
+    margin-left: 105px;
+}
+
+.training-sub-title {
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
 
 
+.training-description {
+    margin-bottom: 30px;
+}
 
+.exercise-img {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 
+}
 
+.exercise1 {
+    position: absolute;
+    width: 323px;
+    height: 218px;
+}
+
+.exercise2 {
+    position: absolute;
+    width: 530px;
+    height: 245px;
+    margin-left: -450px;
+}
+
+.exercise3 {
+    position: absolute;
+    width: 350px;
+    height: 214px;
+    margin-left: 355px;
+
+}
+
+.exercise4 {
+    position: absolute;
+    width: 435px;
+    height: 235px;
+    margin-top: 215px;
+}
+
+.exercise5 {}
+
+.exercise6 {}
+
+.bmi {
+    position: static;
+    width: 671px;
+    height: 120px;
+    margin-top: 80px;
+    margin-left: 350px;
+    margin-bottom: 80px;
+}
+
+.bmi-title {
+    position: static;
+    width: 353px;
+    height: 58px;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 16px;
+}
+
+.bmi-description {
+    width: 671px;
+    height: 48px;
+    font-size: 14px;
+    font-weight: 400;
+}
 
 @media screen and (max-width:576px) {
     body {
@@ -460,4 +536,84 @@ body {
     .buttons {
         width: 390px;
     }
+
+    .change {
+        position: static;
+        width: 400px;
+        margin-top: 250px;
+    }
+
+    .habit-contant {
+        margin-top: 1160px;
+        width: 400px;
+    }
+
+    .habit-title {
+        width: 380px;
+        font-size: 38px;
+    }
+
+    .habit-description {
+        width: 400px;
+    }
+
+    .habit-img {
+        width: 400px;
+        flex-direction: column;
+        margin-top: 480px;
+    }
+
+    .Extra-Mile {
+        width: 353px;
+        height: 531px;
+        margin-left: 1rem;
+        margin-top: 1290px;
+    }
+
+    .Extra-Mile-banner {
+        position: static;
+        width: 330px;
+        font-size: 32px;
+        margin-left: 2rem;
+        margin-top: 0px;
+    }
+
+    .Extra-Mile-title {
+        width: 330px;
+        margin-left: 0px;
+    }
+
+    .Extra-Mile-sub-title {
+        width: 287px;
+        height: 76px;
+        font-size: 35px;
+        margin-top: 20px;
+        margin-bottom: 16px;
+    }
+
+    .Extra-Mile-description {
+        width: 320px;
+        margin-bottom: 16px;
+
+    }
+
+    .join-run {
+        width: 287px;
+        height: 54px;
+        font-size: 18px;
+        font-weight: 600;
+        margin-top: 50px;
+    }
+
+    .run-img {
+        width: 287px;
+        height: 170px;
+        font-size: 32px;
+        margin-top: 2810px;
+        left: 4.5rem;
+        margin-left: 0px;
+    }
+
+    
+
 }
