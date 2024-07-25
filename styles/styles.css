@@ -614,6 +614,20 @@ body {
         margin-left: 0px;
     }
 
-    
+    .bmi {
+        width: 350px;
+        margin-left: 1rem;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    .bmi-title {
+        width: 350px;
+        font-size: 37px;
+    }
+
+    .bmi-description {
+        width: 350px;
+    }
 
 }
