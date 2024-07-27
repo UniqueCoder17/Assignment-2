@@ -11,9 +11,13 @@
 }
 
 body {
-    margin: 2rem 5rem;
+    margin: 0px;
     background-color: #111;
     color: #fff;
+}
+
+.margin {
+    margin: 2rem 5rem;
 }
 
 /* sheared styles */
@@ -34,8 +38,6 @@ body {
     justify-content: space-between;
     align-items: center;
 }
-
-.small-device> {}
 
 .nav-option {
     position: static;
@@ -455,9 +457,123 @@ body {
     font-weight: 400;
 }
 
+.margin-1 {
+    margin: 0px;
+}
+
+.bmi-calculator-section {
+    position: static;
+    width: 100%;
+    height: 487px;
+    background-color: rgb(34, 34, 34);
+    display: flex;
+    justify-content: space-around;
+}
+.bmi-chart{
+    margin-right: 200px;
+}
+.chart {
+    width: 310px;
+    height: 230px;
+    border-collapse: collapse;
+    border: 2px solid rgb(140 140 140);
+    margin-top: 80px;
+    margin-left: 100px;
+}
+
+.bmi-chart-title {
+    position: static;
+    width: 350px;
+    height: 34px;
+    font-size: 28px;
+    font-weight: 900;
+    padding-left: 100px;
+}
+
+td,
+th {
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 5px;
+}
+
+.bmi-calculate-title {
+    position: static;
+    width: 400px;
+    height: 34px;
+    font-size: 28px;
+    font-weight: 900;
+}
+
+.bmi-calculate-description {
+    position: static;
+    width: 577px;
+    height: 48px;
+    margin-bottom: 30px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.inp-color {
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    margin: 0px 12px;
+    color: #ffff;
+    padding: 12px 40px 12px 20px;
+}
+
+#height {
+    position: static;
+    width: 282.5px;
+    height: 35px;
+    margin-bottom: 12px;
+}
+
+#weight {
+    position: static;
+    width: 282.5px;
+    height: 35px;
+}
+
+#age {
+    position: static;
+    width: 282.5px;
+    height: 35px;
+    margin-bottom: 12px;
+}
+
+#sex {
+    position: static;
+    width: 282.5px;
+    height: 35px;
+}
+
+#activity {
+    position: static;
+    width: 675px;
+    height: 40px;
+    padding: 12px 20px 12px 20px;
+}
+
+.calculate-btn {
+    position: static;
+    width: 224px;
+    height: 54px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+
 @media screen and (max-width:576px) {
-    body {
+    .margin {
         margin: 20px 20px;
+    }
+
+    .margin-1 {
+        margin: 0px;
     }
 
     .nav-option {
@@ -630,4 +746,51 @@ body {
         width: 350px;
     }
 
+    .chart {
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+
+    .bmi-chart-title {
+        font-size: 16px;
+        padding: 20px;
+    }
+
+    .bmi-calculator-section {
+        width: 100%;
+        height: 900px;
+        margin-top: 30px;
+        flex-direction: column;
+    }
+
+    .bmi-calculate-title {
+        margin-left: 20px;
+    }
+
+    .bmi-calculate-description {
+        width: 350px;
+        margin-left: 20px;
+    }
+
+    #height {
+        width: 120px;
+        margin-top: 30px;
+    }
+
+    #weight {
+        width: 120px;
+        margin-top: 30px;
+    }
+
+    #age {
+        width: 120px;
+    }
+
+    #sex {
+        width: 120px;
+    }
+
+    #activity {
+        width: 350px;
+    }
 }

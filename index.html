@@ -6,10 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment-2</title>
     <link rel="stylesheet" href="styles/styles.css">
+    <!-- <script src="https://kit.fontawesome.com/73dc349aa9.js" crossorigin="anonymous"></script> -->
 </head>
 
 <body class="inter-normal">
-    <header>
+    <header class="margin">
         <nav class="nav-bar">
             <div class="primary-color">
                 <h1>Fitness</h1>
@@ -19,6 +20,7 @@
                 <p>Service</p>
                 <p>Contact</p>
                 <p>About</p>
+                <!-- <button class="font-awesome"><i class="fa-solid fa-bars"></i></button> -->
             </div>
         </nav>
         <div class="banner-title">
@@ -53,12 +55,9 @@
                 </div>
             </div>
         </div>
-
-
-
     </header>
     <main>
-        <section>
+        <section class="margin">
             <div class="change">
                 <div class="habit-contant">
                     <h1 class="habit-title">Change Your Habits</h1>
@@ -102,7 +101,7 @@
                 </div>
             </div>
         </section>
-        <section>
+        <section class="margin">
             <div class="Extra-Mile">
                 <div class="Extra-Mile-banner">
                     <div class="Extra-Mile-title">
@@ -152,11 +151,56 @@
                 </div>
             </div>
         </section> -->
-        <section>
+        <section class="margin">
             <div class="bmi">
                 <h1 class="bmi-title">BMI Calculator</h1>
                 <p class="bmi-description p-color">A BMI (Body Mass Index) Calculator is a tool that helps you determine
                     whether you have a healthy body weight for your height.</p>
+            </div>
+        </section>
+        <section class="bmi-calculator-section margin-1">
+            <div class="bmi-chart">
+                <h3 class="bmi-chart-title">BMI Calculator Chart</h3>
+                <table class="chart">
+                    <tr>
+                        <th>BMI</th>
+                        <th>Weight Status</th>
+                    </tr>
+                    <tr>
+                        <td>Below 18.5</td>
+                        <td>Underweight</td>
+                    </tr>
+                    <tr>
+                        <td>18.5 - 24.9</td>
+                        <td>Healthy</td>
+                    </tr>
+                    <tr>
+                        <td>25.0 - 29.9</td>
+                        <td>Overweight</td>
+                    </tr>
+                    <tr>
+                        <td>30.0 and Above</td>
+                        <td>Obese</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="bmi-calculate">
+                <div>
+                    <h3 class="bmi-calculate-title">Calculate your BMI</h3>
+                    <p class="bmi-calculate-description p-color"> BMI (Body Mass Index) and how you can calculate it.
+                        BMI is a widely used measure to assess whether your weight is within a healthy range based on
+                        your height.</p>
+                </div>
+                <div>
+                    <input class="inp-color" type="text" name="" id="height" placeholder="Height/cm">
+                    <input class="inp-color" type="text" name="" id="weight" placeholder="Weight/kg">
+                    <input class="inp-color" type="text" name="" id="age" placeholder="Age">
+                    <input class="inp-color" type="text" name="" id="sex" placeholder="Sex">
+                    <input class="inp-color" type="text" name="" id="activity" placeholder="Select an activity factor">
+                </div>
+                <div>
+                    <button class="join calculate-btn">Calculate</button>
+                </div>
             </div>
         </section>
     </main>
