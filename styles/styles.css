@@ -12,7 +12,7 @@
 
 body {
     margin: 0px;
-    background-color: #111;
+    background-color: rgb(17, 17, 17);
     color: #fff;
 }
 
@@ -50,13 +50,6 @@ body {
     box-sizing: border-box;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 40px;
-
-
-
-}
-
-.font-awesome {
-    display: none;
 }
 
 .option {
@@ -138,7 +131,7 @@ body {
 
 .photo {
     position: absolute;
-    width: 349px;
+    width: 300px;
     height: 480px;
     left: 950px;
     top: 120px;
@@ -148,8 +141,8 @@ body {
     position: absolute;
     width: 12rem;
     height: 7rem;
-    left: 76rem;
-    top: 16rem;
+    left: 72rem;
+    top: 12rem;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 10px;
     backdrop-filter: blur(20px);
@@ -170,11 +163,11 @@ body {
 
 .tutorial {
     position: absolute;
-    width: 10rem;
+    width: 10.5rem;
     height: 6rem;
-    left: 55rem;
+    left: 54rem;
     right: -787px;
-    top: 33.5rem;
+    top: 29rem;
     bottom: 26rem;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 10px;
@@ -216,7 +209,7 @@ body {
     width: 1040px;
     height: 450px;
     left: 198px;
-    top: 790px;
+    top: 700px;
     align-items: center;
 }
 
@@ -315,7 +308,7 @@ body {
     height: 355px;
     border-radius: 18px;
     background: rgb(34, 34, 34);
-    margin-top: 800px;
+    margin-top: 700px;
     margin-left: 115px;
 }
 
@@ -329,7 +322,7 @@ body {
     height: 290px;
     left: 54px;
     top: 41px;
-    margin-top: 1300px;
+    margin-top: 1200px;
     margin-left: 180px;
 }
 
@@ -369,7 +362,7 @@ body {
     height: 312px;
     left: 662px;
     top: 30px;
-    margin-top: 1330px;
+    margin-top: 1230px;
     margin-left: 180px;
     border-radius: 20px;
 }
@@ -381,7 +374,11 @@ body {
     width: 1070px;
     height: 585px;
     margin-top: 90px;
-    margin-left: 105px;
+    margin-left: 11rem;
+}
+
+.training-title{
+    margin-bottom: 30px;
 }
 
 .training-sub-title {
@@ -396,43 +393,146 @@ body {
     margin-bottom: 30px;
 }
 
-.exercise-img {
+.container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    height: 100vh;
+}
 
+.container div {
+    position: relative;
+    overflow: hidden;
+}
+
+.container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container .over-p {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    font-size: 14px;
+    font-weight: 500;
+    background: rgba(0, 0, 0, 0.3);
+    color: rgb(255, 255, 255);
+    display: flex;
+}
+
+.container .over-p.exercise1-color {
+    background-color: rgba(6, 255, 210, 0.5);
+}
+
+.container .over-p.exercise3-color {
+    background-color: rgba(255, 0, 0, 0.3);
+}
+
+
+.container .over-p.exercise2-4-color {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.container .over-p.exercise5-color {
+    background-color: rgba(66, 255, 0, 0.3);
+}
+
+.container .over-p.exercise6-color {
+    background-color: rgba(0, 71, 255, 0.3);
 }
 
 .exercise1 {
     position: absolute;
-    width: 323px;
-    height: 218px;
+    width: 300px;
+    height: 238px;
+}
+
+.p-1 {
+    width: 176px;
+    height: 34px;
+    margin-top: 180px;
+    margin-left: 20px;
+
 }
 
 .exercise2 {
     position: absolute;
-    width: 530px;
-    height: 245px;
-    margin-left: -450px;
+    width: 340px;
+    height: 238px;
+    margin-left: 30px;
+
+
+}
+
+.p-2{
+    width: 176px;
+    height: 34px;
+    margin-top: 180px;
+    margin-left: 50px;
 }
 
 .exercise3 {
     position: absolute;
-    width: 350px;
-    height: 214px;
-    margin-left: 355px;
+    width: 539px;
+    height: 256px;
+    margin-left: -850px;
+}
 
+.p-3{
+    width: 176px;
+    height: 34px;
+    margin-top: 20px;
+    margin-left: 30px;
 }
 
 .exercise4 {
     position: absolute;
-    width: 435px;
-    height: 235px;
-    margin-top: 215px;
+    width: 350px;
+    height: 219px;
+    margin-top: -20px;
+    margin-left: 400px;
 }
 
-.exercise5 {}
+.p-4{
+    width: 176px;
+    height: 34px;
+    margin-top: 160px;
+    margin-left: 50px;
+}
 
-.exercise6 {}
+.exercise5 {
+    position: absolute;
+    width: 435px;
+    height: 220px;
+    margin-top: -20px;
+    margin-left: -750px;
+}
+
+.p-5{
+    width: 176px;
+    height: 34px;
+    margin-top: 20px;
+    margin-left: 240px;
+}
+
+.exercise6 {
+    position: absolute;
+    width: 380px;
+    height: 220px;
+    margin-top: -20px;
+    margin-left: -380px;
+}
+
+.p-6{
+    width: 230px;
+    height: 34px;
+    margin-top: 130px;
+    margin-left: 20px;
+}
 
 .bmi {
     position: static;
@@ -499,6 +599,10 @@ th {
     text-align: center;
     border: 1px solid rgba(255, 255, 255, 0.1);
     padding: 5px;
+}
+
+td{
+    color: rgba(255, 255, 255, 0.5);
 }
 
 .bmi-calculate-title {
@@ -764,6 +868,8 @@ th {
 .footer-title {
     display: flex;
     justify-content: space-around;
+    margin-left: 4rem;
+    margin-right: 4rem;
 }
 
 .foot {
@@ -789,7 +895,7 @@ th {
 }
 
 .hr {
-    width: 1059.5px;
+    width: 1150.5px;
     height: 0;
     margin-top: 50px;
     border: 2px solid rgba(255, 255, 255, 0.1);
