@@ -16,6 +16,12 @@ body {
     color: #fff;
 }
 
+.icon {
+    color: rgb(17, 17, 17);
+    background-color: rgb(17, 17, 17);
+    border: 0px;
+}
+
 .margin {
     margin: 2rem 5rem;
 }
@@ -41,7 +47,7 @@ body {
 
 .nav-option {
     position: static;
-    width: 365px;
+    width: 370px;
     height: 46px;
     display: flex;
     justify-content: center;
@@ -50,10 +56,11 @@ body {
     box-sizing: border-box;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 40px;
+    margin-left: 900px;
 }
 
 .option {
-    width: 90px;
+    width: 80px;
     height: 30px;
     background-color: rgb(230, 83, 60);
     justify-content: center;
@@ -135,6 +142,7 @@ body {
     height: 480px;
     left: 950px;
     top: 120px;
+    object-fit: cover;
 }
 
 .Workout {
@@ -256,6 +264,7 @@ body {
 .card-img {
     border-radius: 50%;
     margin-left: 20px;
+    object-fit: cover;
 }
 
 .habit-img-title {
@@ -272,10 +281,6 @@ body {
     width: 107px;
     margin-right: 2rem;
 }
-
-/* .png-3 {
-    margin-right: 15px;
-} */
 
 .png-2 {
     margin-right: 20px;
@@ -365,6 +370,7 @@ body {
     margin-top: 1230px;
     margin-left: 180px;
     border-radius: 20px;
+    object-fit: cover;
 }
 
 .trainings-banner {
@@ -387,7 +393,6 @@ body {
     margin-top: 10px;
     margin-bottom: 20px;
 }
-
 
 .training-description {
     margin-bottom: 30px;
@@ -421,7 +426,7 @@ body {
     font-weight: 500;
     background: rgba(0, 0, 0, 0.3);
     color: rgb(255, 255, 255);
-    display: flex;
+    /* display: flex; */
 }
 
 .container .over-p.exercise1-color {
@@ -790,7 +795,7 @@ td {
 }
 
 .hr {
-    width: 1150.5px;
+    width: 1000px;
     height: 0;
     margin-top: 50px;
     border: 2px solid rgba(255, 255, 255, 0.1);
@@ -817,8 +822,10 @@ td {
         display: none;
     }
 
-    .font-awesome {
-        border: 2px solid red;
+    .icon {
+        /* position: absolute; */
+        color: #fff;
+        border: 0px;
     }
 
     .banner-title {
@@ -837,7 +844,7 @@ td {
 
     .photo {
         width: 300px;
-        height: 380px;
+        height: 480px;
         left: 30px;
         top: 550px;
     }
@@ -858,7 +865,7 @@ td {
         height: 5rem;
         left: 30px;
         right: -300px;
-        top: 810px;
+        top: 750px;
         bottom: 150px;
         border: 1px solid rgba(255, 255, 255, 0.1);
         border-radius: 10px;
@@ -901,7 +908,7 @@ td {
     }
 
     .habit-contant {
-        margin-top: 1160px;
+        margin-top: 1260px;
         width: 400px;
     }
 
