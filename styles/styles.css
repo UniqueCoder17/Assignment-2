@@ -16,11 +16,7 @@ body {
     color: #fff;
 }
 
-.icon {
-    color: rgb(17, 17, 17);
-    background-color: rgb(17, 17, 17);
-    border: 0px;
-}
+
 
 .margin {
     margin: 2rem 5rem;
@@ -405,6 +401,12 @@ body {
     height: 100vh;
 }
 
+.icon {
+    color: rgb(17, 17, 17);
+    background-color: rgb(17, 17, 17);
+    border: 0px;
+}
+
 .container div {
     position: relative;
     overflow: hidden;
@@ -426,7 +428,6 @@ body {
     font-weight: 500;
     background: rgba(0, 0, 0, 0.3);
     color: rgb(255, 255, 255);
-    /* display: flex; */
 }
 
 .container .over-p.exercise1-color {
