@@ -349,12 +349,13 @@ body {
     position: static;
     width: 443px;
     height: 72px;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 400;
 }
 
 .join-run {
     margin-top: 70px;
+    font-size: 20px;
 }
 
 .run-img {
@@ -366,6 +367,55 @@ body {
     margin-top: 1230px;
     margin-left: 180px;
     border-radius: 20px;
+    object-fit: cover;
+}
+
+
+.unique-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.high-content {
+    max-width: 50%;
+
+}
+
+.high-title {
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.high-description {
+    font-size: 16px;
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+.high-button {
+    width: 180px;
+    height: 45px;
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: rgb(224, 71, 48);
+    border: none;
+    color: #fff;
+    border-radius: 25px;
+}
+
+.high-image {
+    width: 350px;
+    height: 200px;
+}
+
+.high-image img {
+    width: 100%;
+    border-radius: 10px;
     object-fit: cover;
 }
 
@@ -824,7 +874,6 @@ td {
     }
 
     .icon {
-        /* position: absolute; */
         color: #fff;
         border: 0px;
     }
@@ -975,8 +1024,39 @@ td {
         height: 170px;
         font-size: 32px;
         margin-top: 2690px;
-        left: 4.5rem;
+        left: 4rem;
         margin-left: 0px;
+    }
+
+    .unique-section {
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+    .high-content {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .high-title {
+        font-size: 35px;
+        margin-top: 0px;
+    }
+
+    .high-description {
+        width: 300px;
+        font-size: 14px;
+    }
+
+    .high-button {
+        width: 300px;
+    }
+
+    .high-image img {
+        max-width: 90%;
+        margin-left: 25px;
+        margin-bottom: 20px;
+        object-fit: cover;
     }
 
     .trainings-banner {
@@ -1005,7 +1085,6 @@ td {
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, 1fr);
         height: 300px;
-        /* align-items: center; */
     }
 
     .exercise3-6-png {
