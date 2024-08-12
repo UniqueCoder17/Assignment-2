@@ -377,6 +377,7 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 50px;
+    margin-top: 80px;
     background-color: rgba(255, 255, 255, 0.1);
 }
 
@@ -425,7 +426,7 @@ body {
     flex-direction: column;
     width: 1070px;
     height: 585px;
-    margin-top: 90px;
+    margin-top: 50px;
     margin-left: 11rem;
 }
 
@@ -860,7 +861,7 @@ td {
     font-size: 20px;
 }
 
-@media screen and (max-width:576px) {
+@media screen and (max-width: 576px) {
     .margin {
         margin: 20px 20px;
     }
@@ -1057,6 +1058,7 @@ td {
         margin-left: 25px;
         margin-bottom: 20px;
         object-fit: cover;
+
     }
 
     .trainings-banner {
@@ -1238,6 +1240,10 @@ td {
         text-align: center;
     }
 
+    .order {
+        order: -1;
+    }
+
     .team-container {
         width: 345px;
         height: 1200px;
@@ -1264,12 +1270,15 @@ td {
         height: 895px;
     }
 
+    .foot {
+        width: 350px;
+    }
+
     .footer-title {
         flex-direction: column;
     }
 
     .foot-description {
-        position: static;
         width: 300px;
         height: 100px;
     }
