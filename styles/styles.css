@@ -12,7 +12,7 @@
 
 body {
     margin: 0px;
-    background-color: rgb(17, 17, 17);
+    background-color: rgb(0, 0, 0);
     color: #fff;
 }
 
@@ -33,6 +33,14 @@ body {
 
 .p-color {
     color: rgba(255, 255, 255, 0.5);
+}
+
+header {
+    height: 600px;
+    padding-top: 2rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 105%);
 }
 
 .nav-bar {
@@ -309,7 +317,7 @@ body {
     height: 355px;
     border-radius: 18px;
     background: rgb(34, 34, 34);
-    margin-top: 700px;
+    margin-top: 600px;
     margin-left: 115px;
 }
 
@@ -364,7 +372,7 @@ body {
     height: 312px;
     left: 662px;
     top: 30px;
-    margin-top: 1230px;
+    margin-top: 1223px;
     margin-left: 180px;
     border-radius: 20px;
     object-fit: cover;
@@ -453,8 +461,8 @@ body {
 }
 
 .icon {
-    color: rgb(17, 17, 17);
-    background-color: rgb(17, 17, 17);
+    color: rgba(119, 119, 119, 0);
+    background-color: rgba(119, 119, 119, 0);
     border: 0px;
 }
 
@@ -869,7 +877,11 @@ td {
     .margin-1 {
         margin: 0px;
     }
-
+header{
+    height: 970px;
+    padding: 30px;
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0.005) 105%);
+}
     .nav-option {
         display: none;
     }
@@ -959,7 +971,7 @@ td {
     }
 
     .habit-contant {
-        margin-top: 1260px;
+        margin-top: 230px;
         width: 400px;
     }
 
@@ -982,7 +994,7 @@ td {
         width: 353px;
         height: 531px;
         margin-left: 1rem;
-        margin-top: 1290px;
+        margin-top: 790px;
     }
 
     .Extra-Mile-banner {
