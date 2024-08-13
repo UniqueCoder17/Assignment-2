@@ -36,7 +36,7 @@ body {
 }
 
 header {
-    height: 600px;
+    height: 570px;
     padding-top: 2rem;
     padding-left: 5rem;
     padding-right: 5rem;
@@ -331,7 +331,7 @@ header {
     height: 290px;
     left: 54px;
     top: 41px;
-    margin-top: 1200px;
+    margin-top: 1170px;
     margin-left: 180px;
 }
 
@@ -372,7 +372,7 @@ header {
     height: 312px;
     left: 662px;
     top: 30px;
-    margin-top: 1223px;
+    margin-top: 1195px;
     margin-left: 180px;
     border-radius: 20px;
     object-fit: cover;
